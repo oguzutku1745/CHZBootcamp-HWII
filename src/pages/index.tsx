@@ -11,8 +11,6 @@ function Home() {
         count:100
     })
 
-    console.log(directListings)
-
     return (
         <Layout>
             {isLoading ? <div className="text-center">

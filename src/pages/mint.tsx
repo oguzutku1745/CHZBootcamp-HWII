@@ -52,7 +52,7 @@ export default function Wallet() {
             mintNft(metadata)
 
         }catch(e) {
-
+            console.log("Error", e)
         }
 
     };
